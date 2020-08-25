@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B641224624F3725E007C4FEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B641224524F3725E007C4FEF /* AppDelegate.m */; };
+		B641224924F3725E007C4FEF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B641224824F3725E007C4FEF /* SceneDelegate.m */; };
+		B641224F24F3725E007C4FEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B641224D24F3725E007C4FEF /* Main.storyboard */; };
+		B641225124F3726D007C4FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B641225024F3726D007C4FEF /* Assets.xcassets */; };
+		B641225424F3726D007C4FEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B641225224F3726D007C4FEF /* LaunchScreen.storyboard */; };
+		B641225724F3726D007C4FEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B641225624F3726D007C4FEF /* main.m */; };
+		B641226124F378F4007C4FEF /* FMPreAuthWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B641226024F378F4007C4FEF /* FMPreAuthWelcomeViewController.m */; };
+		B641226724F37E61007C4FEF /* FMPreAuthLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B641226624F37E61007C4FEF /* FMPreAuthLoginViewController.m */; };
+		B641226A24F38352007C4FEF /* FMPreAuthNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = B641226924F38352007C4FEF /* FMPreAuthNavigationBar.m */; };
+		B641226E24F39896007C4FEF /* FMKeyboardEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = B641226D24F39896007C4FEF /* FMKeyboardEvents.m */; };
+		B641227224F3A8ED007C4FEF /* FMAccountService.m in Sources */ = {isa = PBXBuildFile; fileRef = B641227124F3A8ED007C4FEF /* FMAccountService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B641224124F3725E007C4FEF /* FlipWebApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlipWebApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B641224424F3725E007C4FEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B641224524F3725E007C4FEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B641224724F3725E007C4FEF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B641224824F3725E007C4FEF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B641224E24F3725E007C4FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B641225024F3726D007C4FEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B641225324F3726D007C4FEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B641225524F3726D007C4FEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B641225624F3726D007C4FEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B641225F24F378F4007C4FEF /* FMPreAuthWelcomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPreAuthWelcomeViewController.h; sourceTree = "<group>"; };
+		B641226024F378F4007C4FEF /* FMPreAuthWelcomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPreAuthWelcomeViewController.m; sourceTree = "<group>"; };
+		B641226524F37E61007C4FEF /* FMPreAuthLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPreAuthLoginViewController.h; sourceTree = "<group>"; };
+		B641226624F37E61007C4FEF /* FMPreAuthLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPreAuthLoginViewController.m; sourceTree = "<group>"; };
+		B641226824F38352007C4FEF /* FMPreAuthNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMPreAuthNavigationBar.h; sourceTree = "<group>"; };
+		B641226924F38352007C4FEF /* FMPreAuthNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPreAuthNavigationBar.m; sourceTree = "<group>"; };
+		B641226C24F39896007C4FEF /* FMKeyboardEvents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMKeyboardEvents.h; sourceTree = "<group>"; };
+		B641226D24F39896007C4FEF /* FMKeyboardEvents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMKeyboardEvents.m; sourceTree = "<group>"; };
+		B641227024F3A8ED007C4FEF /* FMAccountService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMAccountService.h; sourceTree = "<group>"; };
+		B641227124F3A8ED007C4FEF /* FMAccountService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMAccountService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B641223E24F3725E007C4FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B641223824F3725E007C4FEF = {
+			isa = PBXGroup;
+			children = (
+				B641224324F3725E007C4FEF /* FlipWebApp */,
+				B641224224F3725E007C4FEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B641224224F3725E007C4FEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B641224124F3725E007C4FEF /* FlipWebApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B641224324F3725E007C4FEF /* FlipWebApp */ = {
+			isa = PBXGroup;
+			children = (
+				B641226F24F3A8CA007C4FEF /* services */,
+				B641226B24F3987B007C4FEF /* events */,
+				B641225E24F378C8007C4FEF /* UIAuthentication */,
+				B641224424F3725E007C4FEF /* AppDelegate.h */,
+				B641224524F3725E007C4FEF /* AppDelegate.m */,
+				B641224724F3725E007C4FEF /* SceneDelegate.h */,
+				B641224824F3725E007C4FEF /* SceneDelegate.m */,
+				B641224D24F3725E007C4FEF /* Main.storyboard */,
+				B641225024F3726D007C4FEF /* Assets.xcassets */,
+				B641225224F3726D007C4FEF /* LaunchScreen.storyboard */,
+				B641225524F3726D007C4FEF /* Info.plist */,
+				B641225624F3726D007C4FEF /* main.m */,
+			);
+			path = FlipWebApp;
+			sourceTree = "<group>";
+		};
+		B641225E24F378C8007C4FEF /* UIAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				B641226424F37E35007C4FEF /* Login */,
+				B641226224F37E0A007C4FEF /* PreAuth */,
+				B641226824F38352007C4FEF /* FMPreAuthNavigationBar.h */,
+				B641226924F38352007C4FEF /* FMPreAuthNavigationBar.m */,
+			);
+			path = UIAuthentication;
+			sourceTree = "<group>";
+		};
+		B641226224F37E0A007C4FEF /* PreAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B641225F24F378F4007C4FEF /* FMPreAuthWelcomeViewController.h */,
+				B641226024F378F4007C4FEF /* FMPreAuthWelcomeViewController.m */,
+			);
+			path = PreAuth;
+			sourceTree = "<group>";
+		};
+		B641226424F37E35007C4FEF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B641226524F37E61007C4FEF /* FMPreAuthLoginViewController.h */,
+				B641226624F37E61007C4FEF /* FMPreAuthLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B641226B24F3987B007C4FEF /* events */ = {
+			isa = PBXGroup;
+			children = (
+				B641226C24F39896007C4FEF /* FMKeyboardEvents.h */,
+				B641226D24F39896007C4FEF /* FMKeyboardEvents.m */,
+			);
+			path = events;
+			sourceTree = "<group>";
+		};
+		B641226F24F3A8CA007C4FEF /* services */ = {
+			isa = PBXGroup;
+			children = (
+				B641227024F3A8ED007C4FEF /* FMAccountService.h */,
+				B641227124F3A8ED007C4FEF /* FMAccountService.m */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B641224024F3725E007C4FEF /* FlipWebApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B641225A24F3726D007C4FEF /* Build configuration list for PBXNativeTarget "FlipWebApp" */;
+			buildPhases = (
+				B641223D24F3725E007C4FEF /* Sources */,
+				B641223E24F3725E007C4FEF /* Frameworks */,
+				B641223F24F3725E007C4FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlipWebApp;
+			productName = FlipWebApp;
+			productReference = B641224124F3725E007C4FEF /* FlipWebApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B641223924F3725E007C4FEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Flip Multimedia";
+				TargetAttributes = {
+					B641224024F3725E007C4FEF = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = B641223C24F3725E007C4FEF /* Build configuration list for PBXProject "FlipWebApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B641223824F3725E007C4FEF;
+			productRefGroup = B641224224F3725E007C4FEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B641224024F3725E007C4FEF /* FlipWebApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B641223F24F3725E007C4FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B641225424F3726D007C4FEF /* LaunchScreen.storyboard in Resources */,
+				B641225124F3726D007C4FEF /* Assets.xcassets in Resources */,
+				B641224F24F3725E007C4FEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B641223D24F3725E007C4FEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B641226724F37E61007C4FEF /* FMPreAuthLoginViewController.m in Sources */,
+				B641226E24F39896007C4FEF /* FMKeyboardEvents.m in Sources */,
+				B641226124F378F4007C4FEF /* FMPreAuthWelcomeViewController.m in Sources */,
+				B641226A24F38352007C4FEF /* FMPreAuthNavigationBar.m in Sources */,
+				B641224624F3725E007C4FEF /* AppDelegate.m in Sources */,
+				B641225724F3726D007C4FEF /* main.m in Sources */,
+				B641227224F3A8ED007C4FEF /* FMAccountService.m in Sources */,
+				B641224924F3725E007C4FEF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B641224D24F3725E007C4FEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B641224E24F3725E007C4FEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B641225224F3726D007C4FEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B641225324F3726D007C4FEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B641225824F3726D007C4FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B641225924F3726D007C4FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B641225B24F3726D007C4FEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7K7V7DRQH;
+				INFOPLIST_FILE = FlipWebApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.flipweb.FlipWebApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B641225C24F3726D007C4FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P7K7V7DRQH;
+				INFOPLIST_FILE = FlipWebApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.flipweb.FlipWebApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B641223C24F3725E007C4FEF /* Build configuration list for PBXProject "FlipWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B641225824F3726D007C4FEF /* Debug */,
+				B641225924F3726D007C4FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B641225A24F3726D007C4FEF /* Build configuration list for PBXNativeTarget "FlipWebApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B641225B24F3726D007C4FEF /* Debug */,
+				B641225C24F3726D007C4FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B641223924F3725E007C4FEF /* Project object */;
+}

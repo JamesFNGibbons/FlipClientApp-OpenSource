@@ -102,6 +102,7 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="nextStepBtn:" destination="f6v-Nq-O46" eventType="touchUpInside" id="b4A-aW-kNJ"/>
+                                    <action selector="nextStepBtnTapEvent:" destination="wmX-Gj-wIr" eventType="touchUpInside" id="NBI-OI-aVr"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Tp-8O-y7N">

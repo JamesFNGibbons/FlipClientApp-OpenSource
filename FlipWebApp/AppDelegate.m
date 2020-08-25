@@ -15,11 +15,15 @@
 @implementation AppDelegate
 
 
+- (NSString*) getAPIAddress {
+    return @"http://localhost:5000";
+}
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
     // self.window.overrideUserInterfaceStyle = UIUserInterfaceStyleDark;
-    
     
     return YES;
 }
